@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url(https://www.personalguide.ru/dir_images/excursion_logo_103452_l.jpg);
+  opacity: 1.0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

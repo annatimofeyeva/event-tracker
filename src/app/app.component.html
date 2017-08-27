@@ -1,19 +1,21 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <br>
 <br>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">The State Hermitage Museum</a>
+      <img alt="Brand" src="http://remont-master48.ru/barter/clients/hermitage.jpg">
+      <a class="navbar-brand navbar-right" routerLink="">The State <br><br>Hermitage<br><br>Museum</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li><a routerLink="about">ABOUT US</a></li>
       <li><a routerLink="exhibitions">WHAT'S ON</a></li>
+      <li><a routerLink="visit">VIRTUAL VISIT</a></li>
     </ul>
   </div>
 </nav>
 
+
 <div class="container">
-  <h1>{{title}}</h1>
   <router-outlet></router-outlet>
   </div>
