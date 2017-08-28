@@ -5,6 +5,7 @@ import { AboutComponent }   from './about/about.component';
 import { ExhibitionsComponent } from './exhibitions/exhibitions.component';
 import { VisitComponent } from './visit/visit.component';
 import { TicketsComponent} from './tickets/tickets.component';
+import { ExhibitionDetailComponent } from './exhibition-detail/exhibition-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -31,6 +32,11 @@ const appRoutes: Routes = [
     path: 'tickets',
     component: TicketsComponent
   },
+
+  {
+    path: 'exhibitions/:id',
+    component: ExhibitionDetailComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
