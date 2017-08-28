@@ -1,5 +1,8 @@
 # EventTracker
 
+Event tracker - web application which allows users to stay informed about current Hermitage Museum exhibitions. Now it's far easier to answer the question - What's on the Hermitage!
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
 ## Development server
