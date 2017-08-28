@@ -1,6 +1,8 @@
 <div class="well">
 <h1>What's on at the Hermitage</h1>
-<br>
-<br>
 <h2>Current Exhibitions:</h2>
+<br>
+<ul class="list-group">
+<h4><li class="list-group item" *ngFor="let exhibition of exhibitions"><em>Title:</em> {{exhibition.title}};  <em>Location: </em>{{exhibition.location}};  <em>Description: </em>{{exhibition.description}};   </li></h4>
+</ul>
 </div>

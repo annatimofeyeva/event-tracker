@@ -7,6 +7,7 @@ import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { ExhibitionsComponent } from './exhibitions/exhibitions.component';
 import { VisitComponent } from './visit/visit.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { VisitComponent } from './visit/visit.component';
     WelcomeComponent,
     AboutComponent,
     ExhibitionsComponent,
-    VisitComponent
+    VisitComponent,
+    TicketsComponent
   ],
   imports: [
     BrowserModule,
