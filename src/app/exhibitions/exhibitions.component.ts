@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Exhibition } from '../exhibition.model';
 import { Router } from '@angular/router';
 import { ExhibitionService } from '../exhibition.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-exhibitions',
@@ -11,7 +12,7 @@ import { ExhibitionService } from '../exhibition.service';
 })
 
 export class ExhibitionsComponent implements OnInit {
-  exhibitions: Exhibition[];
+    exhibitions: FirebaseListObservable<any[]>;
 
   constructor(private router: Router, private exhibitionService: ExhibitionService){}
 

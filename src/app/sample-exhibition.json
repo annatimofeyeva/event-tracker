@@ -1,0 +1,17 @@
+{ "exhibitions": [{
+    "title": "The Hermitage Encyclopaedia of Textiles.",
+    "location": "The Main Museum Complex: St George and Picket Halls.",
+    "description": "From 29 July, the exhibition “The Hermitage Encyclopaedia of Textiles. History” in the Winter Palace will be presenting for the first time the Hermitage’s textile collections in all their great variet.",
+    "date": "29 July 2017 - 15 October 2017"
+      }, {
+    "title": "Nefertari and the Valley of the Queens. From the Museo Egizio, Turin",
+    "location": "The Main Museum Complex: St George and Picket Halls",
+    "description": "From 16 June 2017, the Manege of the Small Hermitage will be the setting for the exhibition “Nefertari and the Valley of the Queens. From the Museo Egizio, Turin.",
+    "date": "16 June 2017 - 10 January 2018"
+      }, {
+    "title": "Anselm Kiefer, for Velimir Khlebnikov",
+    "location": "Nicholas Hall of the Winter Palaces",
+    "description": "On 30th May 2017, for the very first time in Russia, the State Hermitage Museum inaugurates a solo exhibition of one of the most famous contemporary artist, Anselm Kiefer.",
+    "date": "30 May 2017 - 3 September 2017"
+  }]
+}

@@ -1,14 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Exhibition } from './exhibition.model';
 import { EXHIBITIONS } from './mock-exhibition';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class ExhibitionService {
+   exhibitions: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+    this.exhibitions = database.list('exhibitions');
+   }
 
   getExhibition() {
-    return EXHIBITIONS;
+    return this.exhibitions;
   }
 
   getExhibitionById(exhibitionId: number){
