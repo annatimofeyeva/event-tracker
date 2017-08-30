@@ -6,6 +6,8 @@ import { ExhibitionsComponent } from './exhibitions/exhibitions.component';
 import { VisitComponent } from './visit/visit.component';
 import { TicketsComponent} from './tickets/tickets.component';
 import { ExhibitionDetailComponent } from './exhibition-detail/exhibition-detail.component';
+import { AdminComponent }   from './admin/admin.component';
+
 
 const appRoutes: Routes = [
   {
@@ -36,6 +38,10 @@ const appRoutes: Routes = [
   {
     path: 'exhibitions/:id',
     component: ExhibitionDetailComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 

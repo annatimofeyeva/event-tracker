@@ -20,9 +20,9 @@ export class ExhibitionsComponent implements OnInit {
     this.exhibitions = this.exhibitionService.getExhibition();
   }
 
-
-    goToDetailPage(clickedExhibition: Exhibition) {
-      this.router.navigate(['exhibitions', clickedExhibition.id]);
-    };
+    //
+    // goToDetailPage(clickedExhibition: Exhibition) {
+    //   this.router.navigate(['exhibitions', clickedExhibition.id]);
+    // };
 
 }

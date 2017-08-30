@@ -1,0 +1,34 @@
+<div class="well">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+  <h3>Add New Exibition</h3>
+  <div>
+    <div>
+      <label>Exhibition Title:</label>
+      <br>
+      <input #newTitle>
+    </div>
+
+    <div>
+      <label>Exhibition Location:</label>
+      <br>
+      <input #newLocation>
+    </div>
+
+    <div>
+      <label>Exhibition Description:</label>
+      <br>
+      <textarea #newDescription></textarea>
+    </div>
+
+    <div>
+      <label>Exhibition Date:</label>
+      <br>
+      <input #newDate>
+    </div>
+    <br>
+   <button class="btn btn-info btn-lg" (click)="submitForm(newTitle.value, newLocation.value, newDescription.value, newDate.value)">Add</button>
+  </div>
+</div>
+</div>
+</div>

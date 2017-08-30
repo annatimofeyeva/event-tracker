@@ -11,6 +11,7 @@ import { ExhibitionDetailComponent } from './exhibition-detail/exhibition-detail
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { masterFirebaseConfig } from './api-keys';
+import { AdminComponent } from './admin/admin.component';
 
 
 export const firebaseConfig = {
@@ -28,7 +29,8 @@ export const firebaseConfig = {
     ExhibitionsComponent,
     VisitComponent,
     TicketsComponent,
-    ExhibitionDetailComponent
+    ExhibitionDetailComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
