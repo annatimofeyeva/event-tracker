@@ -1,6 +1,6 @@
 <div class="well">
   <!-- <h2>This exhibition has id number: {{exhibitionId}}</h2> -->
-  <h3>{{exhibitionToDisplay.title}}</h3>
-  <h4>{{exhibitionToDisplay.location}}</h4>
-  <p>{{exhibitionToDisplay.description}}</p>
+  <h3>{{(exhibitionToDisplay | async).title}}</h3>
+  <h4>{{(exhibitionToDisplay | async).location}}</h4>
+  <p>{{(exhibitionToDisplay | async).description}}</p>
 </div>
