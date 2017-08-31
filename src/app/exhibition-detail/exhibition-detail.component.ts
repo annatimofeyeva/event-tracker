@@ -11,8 +11,8 @@ import { ExhibitionService } from '../exhibition.service';
   providers: [ExhibitionService]
 })
 export class ExhibitionDetailComponent implements OnInit {
-  exhibitionId: number;
-  exhibitionToDisplay: Exhibition;
+  exhibitionId: string;
+  exhibitionToDisplay;
 
   constructor(
     private route: ActivatedRoute,
@@ -22,7 +22,7 @@ export class ExhibitionDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.exhibitionId = parseInt(urlParameters['id']);
+      this.exhibitionId = urlParameters['id'];
     });
     this.exhibitionToDisplay = this.exhibitionService.getExhibitionById(this.exhibitionId);
   }

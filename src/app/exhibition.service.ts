@@ -19,11 +19,7 @@ export class ExhibitionService {
     this.exhibitions.push(newExhibition);
   }
 
-  // getExhibitionById(exhibitionId: number){
-  //   for (var i = 0; i <= EXHIBITIONS.length - 1; i++) {
-  //     if (EXHIBITIONS[i].id === exhibitionId) {
-  //       return EXHIBITIONS[i];
-  //     }
-  //   }
-  // }
+  getExhibitionById(exhibitionId: string){
+    return this.database.object('exhibitions/' + exhibitionId);
+  }
 }
