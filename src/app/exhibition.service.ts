@@ -22,4 +22,13 @@ export class ExhibitionService {
   getExhibitionById(exhibitionId: string){
     return this.database.object('exhibitions/' + exhibitionId);
   }
+
+  updateExhibition(localUpdatedExhibition){
+    var exhibitionEntryInFirebase = this.getExhibitionById(localUpdatedExhibition.$key);
+    exhibitionEntryInFirebase.update({title: localUpdatedExhibition.title,
+                                location: localUpdatedExhibition.location,
+                                description: localUpdatedExhibition.description,
+                                date: localUpdatedExhibition.date
+                              });
+  }
 }

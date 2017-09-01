@@ -1,0 +1,17 @@
+<h4>Edit Exhibition</h4>
+
+<label>New Exhibition Title:</label>
+<input [(ngModel)]="selectedExhibition.title">
+<br>
+
+<label>New Exhibition Location:</label>
+<input [(ngModel)]="selectedExhibition.location">
+<br>
+
+<label>New Exhibition Description:</label>
+<input [(ngModel)]="selectedExhibition.description">
+
+<label>New Exhibition Date:</label>
+<input [(ngModel)]="selectedExhibition.date">
+
+<button (click)="beginUpdatingExhibition(selectedExhibition)">Update</button>

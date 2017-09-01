@@ -12,6 +12,9 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { masterFirebaseConfig } from './api-keys';
 import { AdminComponent } from './admin/admin.component';
+import { EditExhibitionComponent } from './edit-exhibition/edit-exhibition.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 export const firebaseConfig = {
@@ -30,13 +33,16 @@ export const firebaseConfig = {
     VisitComponent,
     TicketsComponent,
     ExhibitionDetailComponent,
-    AdminComponent
+    AdminComponent,
+    EditExhibitionComponent
   ],
   imports: [
     BrowserModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
+    FormsModule,
     AngularFireDatabaseModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
