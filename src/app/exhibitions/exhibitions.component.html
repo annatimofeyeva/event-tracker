@@ -4,7 +4,7 @@
 <br>
 <div *ngFor="let exhibition of exhibitions | async"  class="panel panel-default">
   <div class="panel-body">
-    <h3 (click)="goToDetailPage(exhibition)"><em>{{exhibition.title}}</em> by {{exhibition.location}}</h3>
+    <h3 (click)="goToDetailPage(exhibition)"><em>Exhibition title: {{exhibition.title}}</em>, hold in  {{exhibition.location}}</h3>
     <div *ngIf="currentRoute === '/admin'">
       {{exhibition.description}}
       <br>
