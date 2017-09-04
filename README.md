@@ -1,6 +1,6 @@
 # EventTracker
 
-Event tracker - web application which allows users to stay informed about current Hermitage Museum exhibitions. Now it's far easier to answer the question - What's on the Hermitage! Users can view a specific exhibition's details. Users can view the About us page Visit us to learn more about the museum's history ans plan their visits. Admins can add new rxhibition and edit a exhibition's properties, including title, location, decription and date. Admins can also delete exhibitions.
+Event tracker - web application which allows users to stay informed about current Hermitage Museum exhibitions. Now it's far easier to answer the question - What's on the Hermitage! Users can view a specific exhibition's details. Users can view the "About us" page and "Visit us" page to learn more about the museum's history and plans their future visits. Admins can add new exhibition and edit a exhibition's properties, including title, location, decription and date. Admins can also delete exhibitions.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
