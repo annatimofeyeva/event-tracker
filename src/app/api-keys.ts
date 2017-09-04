@@ -1,7 +1,8 @@
 export var masterFirebaseConfig = {
-    apiKey: "AIzaSyCSJhp2gAUcRkY_1ctCjivZX2jrMCNWsEY",
-    authDomain: "event-tracker-ce757.firebaseapp.com",
-    databaseURL: "https://event-tracker-ce757.firebaseio.com",
-    storageBucket: "",
-    messagingSenderId: "28396823028"
+  apiKey: "AIzaSyBlLAYTUdiWNWhT1Nx3eWoMtYC4AE-Ycew",
+  authDomain: "hermitage-tracker.firebaseapp.com",
+  databaseURL: "https://hermitage-tracker.firebaseio.com",
+  projectId: "hermitage-tracker",
+  storageBucket: "",
+  messagingSenderId: "39255509480"
   };
