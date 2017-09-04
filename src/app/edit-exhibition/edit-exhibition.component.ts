@@ -21,10 +21,4 @@ export class EditExhibitionComponent implements OnInit {
       this.exhibitionService.updateExhibition(exhibitionToUpdate);
     }
 
-    beginDeletingExhibition(exhibitionToDelete){
-      if(confirm("Are you sure you want to delete this item?")){
-        this.exhibitionService.deleteExhibition(exhibitionToDelete);
-      }
-    }
-
 }

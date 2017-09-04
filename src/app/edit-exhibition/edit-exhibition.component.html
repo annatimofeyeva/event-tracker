@@ -13,11 +13,5 @@
 
 <label>New Exhibition Date:</label>
 <input [(ngModel)]="selectedExhibition.date">
-<br>
-<br>
-<button class="btn btn-info btn-lg" (click)="beginUpdatingExhibition(selectedExhibition)">Update</button>
-<br>
-<br>
-<div>
-<button class="btn btn-info btn-lg" (click)="beginDeletingExhibition(selectedExhibition)">Delete</button>
-</div>
+
+<button (click)="beginUpdatingExhibition(selectedExhibition)">Update</button>

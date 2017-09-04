@@ -31,11 +31,4 @@ export class ExhibitionService {
                                 date: localUpdatedExhibition.date
                               });
   }
-
-  deleteExhibition(localExhibitionToDelete){
-      var exhibitionEntryInFirebase = this.getExhibitionById(localExhibitionToDelete.$key);
-      exhibitionEntryInFirebase.remove();
-    }
-
-
 }
